@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+.topnav{
+    position: fixed;
+    width: 100%;
+    background: rgb(221, 182, 124);
+    padding: 35px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav .logo{
+    color:crimson;
+    font-size: 30px;
+}
+
+.logo span{
+    color: black;
+}
+
+.topnav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;   
+    font-family: 'Lobster';
+    
+}
+
+.topnav ul li a{
+    color: black;
+    transition: all 0.5s;
+}
+
+.topnav ul li a:hover{
+    color: crimson;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.home{
+    display: flex;
+    background: url(assets/images/contentbg.png) no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width {
+    max-resolution: auto 0 auto 40px;
+}
+
+.home .home-content .intro{
+    font-size: 27px;
+}
+
+.home .home-content .name{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .profession{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .profession span{
+    color: crimson;
+    font-weight: 500;
+
+}
